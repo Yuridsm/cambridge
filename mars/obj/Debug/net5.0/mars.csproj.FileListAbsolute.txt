@@ -40,3 +40,4 @@ C:\Users\YuriMelo\Documents\Projects\redis\mars\obj\Debug\net5.0\mars.dll
 C:\Users\YuriMelo\Documents\Projects\redis\mars\obj\Debug\net5.0\ref\mars.dll
 C:\Users\YuriMelo\Documents\Projects\redis\mars\obj\Debug\net5.0\mars.pdb
 C:\Users\YuriMelo\Documents\Projects\redis\mars\obj\Debug\net5.0\mars.genruntimeconfig.cache
+C:\Users\YuriMelo\Documents\Projects\redis\mars\bin\Debug\net5.0\RabbitMQ.Client.dll

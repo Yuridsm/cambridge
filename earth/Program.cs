@@ -1,6 +1,4 @@
-﻿using StackExchange.Redis;
-using System;
-using System.Threading.Tasks;
+﻿using earth.Producer;
 
 namespace earth
 {
@@ -66,6 +64,7 @@ namespace earth
             count = pub.Publish("abc", "Hello there I am a abc message"); //no one listening anymore
             Console.WriteLine($"Number of listeners for a*c {count}");*/
 
+            /*
             #region Publisher
             var redis = RedisStore.RedisCache;
             var pub = redis.Multiplexer.GetSubscriber();
@@ -86,7 +85,8 @@ namespace earth
             #endregion
 
             Console.ReadKey();
+            */
+            ProducerRabbitMQ.Produce();
         }
-
     }
 }

@@ -40,3 +40,4 @@ C:\Users\YuriMelo\Documents\Projects\redis\earth\bin\Debug\net5.0\runtimes\win\l
 C:\Users\YuriMelo\Documents\Projects\redis\earth\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\YuriMelo\Documents\Projects\redis\earth\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\YuriMelo\Documents\Projects\redis\earth\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\YuriMelo\Documents\Projects\redis\earth\bin\Debug\net5.0\RabbitMQ.Client.dll

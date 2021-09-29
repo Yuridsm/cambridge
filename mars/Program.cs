@@ -1,4 +1,4 @@
-﻿using System;
+﻿using mars.Consumer;
 
 namespace mars
 {
@@ -6,7 +6,7 @@ namespace mars
     {
         static void Main(string[] args)
         {
-            var redis = RedisStore.RedisCache;
+            /*var redis = RedisStore.RedisCache;
 
             var sub = redis.Multiplexer.GetSubscriber();
             
@@ -15,6 +15,8 @@ namespace mars
             });
 
             Console.ReadKey();
+            */
+            ConsumerRabbitMQ.Consume();
         }
     }
 }

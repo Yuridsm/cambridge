@@ -1,8 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using RabbitMQ.Client;
+using System;
+using System.Text;
 
 namespace earth.Producer
 {
@@ -19,19 +17,22 @@ namespace earth.Producer
                                     exclusive: false,
                                     autoDelete: false,
                                     arguments: null);
+                string message = string.Empty;
+                int count = 0;
+                while (true)
+                {
+                    message = $"{count++} Hello World!";
+                    var body = Encoding.UTF8.GetBytes(message);
 
-                string message = "Hello World!";
-                var body = Encoding.UTF8.GetBytes(message);
+                    channel.BasicPublish(exchange: "",
+                                        routingKey: "better-cambridge-library",
+                                        basicProperties: null,
+                                        body: body);
 
-                channel.BasicPublish(exchange: "",
-                                    routingKey: "hello",
-                                    basicProperties: null,
-                                    body: body);
-                Console.WriteLine(" [x] Sent {0}", message);
+                    Console.WriteLine(" [x] Sent {0}", message);
+                    System.Threading.Thread.Sleep(200);
+                }
             }
-
-            Console.WriteLine(" Press [enter] to exit.");
-            Console.ReadLine();
         }
     }
 }

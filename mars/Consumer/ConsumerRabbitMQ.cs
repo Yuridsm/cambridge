@@ -1,9 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using RabbitMQ.Client;
-using RabbitMQ.Client.Event;
+using RabbitMQ.Client.Events;
+using System;
+using System.Text;
 
 namespace mars.Consumer
 {
@@ -15,7 +13,7 @@ namespace mars.Consumer
             using(var connection = factory.CreateConnection())
             using(var channel = connection.CreateModel())
             {
-                channel.QueueDeclare(queue: "hebetter-cambridge-libraryllo",
+                channel.QueueDeclare(queue: "better-cambridge-library",
                                     durable: false,
                                     exclusive: false,
                                     autoDelete: false,
@@ -28,7 +26,7 @@ namespace mars.Consumer
                     var message = Encoding.UTF8.GetString(body);
                     Console.WriteLine(" [x] Received {0}", message);
                 };
-                channel.BasicConsume(queue: "hello",
+                channel.BasicConsume(queue: "better-cambridge-library",
                                     autoAck: true,
                                     consumer: consumer);
 
