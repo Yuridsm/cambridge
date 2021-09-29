@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RgPkVAoyGxER5/fP6v0tLeF4dZ2rcGOgDf7PDAZu69y6kSys+AtF5DS4yBT06gc0CzpNwdQ3n0+rwJLTAGZGtg==",
+  "dgSpecHash": "Ekr1G3D330jXS6odOVPmYVvzFZBPM75LYLHwNKFmk+erQ3ZhTLX+itpxIV/bifhSqr13Ly9bA3UfFPpVEbL+BQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\YuriMelo\\Documents\\Projects\\redis\\mars\\mars.csproj",
   "expectedPackageFiles": [
@@ -16,15 +16,18 @@
     "C:\\Users\\YuriMelo\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\YuriMelo\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\YuriMelo\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.0\\pipelines.sockets.unofficial.2.2.0.nupkg.sha512",
+    "C:\\Users\\YuriMelo\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
     "C:\\Users\\YuriMelo\\.nuget\\packages\\stackexchange.redis\\2.2.50\\stackexchange.redis.2.2.50.nupkg.sha512",
     "C:\\Users\\YuriMelo\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
     "C:\\Users\\YuriMelo\\.nuget\\packages\\system.diagnostics.performancecounter\\5.0.0\\system.diagnostics.performancecounter.5.0.0.nupkg.sha512",
     "C:\\Users\\YuriMelo\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
     "C:\\Users\\YuriMelo\\.nuget\\packages\\system.io.pipelines\\5.0.0\\system.io.pipelines.5.0.0.nupkg.sha512",
+    "C:\\Users\\YuriMelo\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\YuriMelo\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\YuriMelo\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\system.security.cryptography.protecteddata.5.0.0.nupkg.sha512",
     "C:\\Users\\YuriMelo\\.nuget\\packages\\system.security.permissions\\5.0.0\\system.security.permissions.5.0.0.nupkg.sha512",
     "C:\\Users\\YuriMelo\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\YuriMelo\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512",
     "C:\\Users\\YuriMelo\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
   "logs": []
